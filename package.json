@@ -17,6 +17,7 @@
     "clean": "rimraf ./lib ./coverage",
     "prebuild": "npm run clean",
     "build": "tsc && tsc -p tsconfig.esm.json",
+    "test": "npm test",
     "prepublishOnly": "npm run build && npm run test"
   },
   "devDependencies": {
